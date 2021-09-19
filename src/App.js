@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import PriceCard from './components/PriceCard';
-import logo from './logo.png';
+import logo from './logo2.png';
 import './App.css';
 
 const App = () => {
