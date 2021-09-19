@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import PriceCard from './components/PriceCard';
-import logo from './logo2.png';
+import logo from './logo3.jpg';
 import './App.css';
+import Footer from './Page/Footer'
 
 const App = () => {
   const [ticker, setTicker] = useState({
@@ -31,10 +32,7 @@ const App = () => {
         <PriceCard type="high" price={ticker.high} />
         <PriceCard type="current" price={ticker.last} />
       </div>
-      <p>
-        Dogecoin price updated every 10 seconds from{' '}
-        <a href="https://wazirx.com/">WazirX API</a>
-      </p>
+      
     </div>
   );
 };
