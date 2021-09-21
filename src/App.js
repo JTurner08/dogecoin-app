@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import PriceCard from './components/PriceCard';
 import logo from './logo3.jpg';
 import './App.css';
-import Footer from './Page/Footer'
+
 
 const App = () => {
   const [ticker, setTicker] = useState({
@@ -36,5 +36,7 @@ const App = () => {
     </div>
   );
 };
+
+
 
 export default App;
